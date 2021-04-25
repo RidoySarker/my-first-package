@@ -1,0 +1,26 @@
+{
+    "name": "ridoy/student",
+    "description": "test a laravel package",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ridoy",
+            "email": "csridoy42@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Ridoy\\Student\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ridoy\\Student\\ServiceProvider"
+            ]
+        }
+    }
+}
